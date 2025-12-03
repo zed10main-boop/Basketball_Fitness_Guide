@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Performance Training - Menu</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+        }
+        .section-link {
+            background-color: #ffffff;
+            border-left: 6px solid #f97316; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none; 
+        }
+        .section-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 md:p-8">
+
+    
+    <header class="text-center mb-12">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-2">
+            Basketball Performance Program
+        </h1>
+        <p class="text-xl text-orange-600 font-semibold">
+            Train for Speed, Vertical Power, and Endurance
+        </p>
+    </header>
+
+    
+    <main class="max-w-6xl mx-auto">
+        
+       
+        <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg mb-8 border-t-8 border-orange-500">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Training Categories</h2>
+            <p class="text-gray-600">
+                Click on any category below to view the detailed drills, sets, and reps for that specific workout component.
+            </p>
+        </div>
+
+       
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+            
+            <a href="power.html" class="section-link p-6 rounded-xl shadow-md border-l-4 block">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                    1. Power & Vertical Jump
+                </h3>
+                <p class="text-sm text-gray-500 mt-2">Maximize jump height and landing safety.</p>
+                <span class="text-sm text-orange-500 font-medium block mt-2">Click for Drills →</span>
+            </a>
+
+           
+            <a href="agility.html" class="section-link p-6 rounded-xl shadow-md border-l-4 block">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                    2. Speed & Agility
+                </h3>
+                <p class="text-sm text-gray-500 mt-2">Quick acceleration and change of direction.</p>
+                <span class="text-sm text-orange-500 font-medium block mt-2">Click for Drills →</span>
+            </a>
+
+           
+            <a href="strength.html" class="section-link p-6 rounded-xl shadow-md border-l-4 block">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20v-2a3 3 0 015.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M10 20v-9.001c0-2.203 1.599-4.201 3.999-4.399C16.401 6.398 18 8.401 18 10.601V20M14 10h.01" />
+                    </svg>
+                    3. Lower Body & Core
+                </h3>
+                <p class="text-sm text-gray-500 mt-2">Strength for sustained power and joint stability.</p>
+                <span class="text-sm text-orange-500 font-medium block mt-2">Click for Workouts →</span>
+            </a>
+
+           
+            <a href="conditioning.html" class="section-link p-6 rounded-xl shadow-md border-l-4 block">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6m3-3h.01M16 19v-6a2 2 0 00-2-2h-2a2 2 0 00-2 2v6m4-3h.01M5 10c0-4.556 2.903-8.204 6.64-8.948L12 1h.36c3.737.744 6.64 4.392 6.64 8.948V10h-2V9.5A5.5 5.5 0 0012 4a5.5 5.5 0 00-5.5 5.5V10H5v2z" />
+                    </svg>
+                    4. Conditioning & Recovery
+                </h3>
+                <p class="text-sm text-gray-500 mt-2">Maintain high intensity throughout the game.</p>
+                <span class="text-sm text-orange-500 font-medium block mt-2">Click for Plan →</span>
+            </a>
+            
+            
+            <a href="shooting.html" class="section-link p-6 rounded-xl shadow-md border-l-4 block lg:col-span-2 xl:col-span-1">
+                <h3 class="text-xl font-bold text-gray-900 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                    5. Shooting Drills & Tips
+                </h3>
+                <p class="text-sm text-gray-500 mt-2">Practice volume and proper shooting mechanics.</p>
+                <span class="text-sm text-orange-500 font-medium block mt-2">Click for Drills & Tips →</span>
+            </a>
+            
+        </div>
+        
+       
+        <footer class="mt-12 p-6 text-center bg-gray-100 rounded-lg text-gray-600 border-t-2 border-gray-300">
+            <p class="text-xs">
+                **Disclaimer:** Always consult a physician before starting any new fitness program. Focus on **perfect form** before increasing speed or weight.
+            </p>
+        </footer>
+
+    </main>
+</body>
+</html>
